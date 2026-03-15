@@ -1,105 +1,114 @@
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+body {
+    font-family: sans-serif;
+    background-color: rgb(0, 0, 0);
+    margin: 0;
+    padding: 0;
+}
 
-        body {
-            font-family: 'Montserrat', sans-serif;
-            line-height: 1.6;
-            color: #333;
-        }
+header {
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 20px;
+}
 
-        /* Обложка */
-        .cover {
-            height: 100vh;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-            background-color: #f0f8ff;
-            /* Светло-голубой фон */
-            padding: 20px;
-        }
+.pink {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #2A4580;
+    width: 100%;
+    margin: 0px;
+}
 
-        .cover h1 {
-            font-size: 3rem;
-            margin-bottom: 1rem;
-            color: #2c3e50;
-        }
+.button {
+    display: flex;
+    background-color: #36bbce;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 15px;
+    font-size: 24px;
+    border-radius: 10px;
+    margin: 5px;
+}
 
-        .cover p {
-            font-size: 1.2rem;
-            max-width: 600px;
-            margin-bottom: 2rem;
-            color: #555;
-        }
+nav {
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
 
-        .editor-link {
-            display: inline-block;
-            padding: 12px 24px;
-            background-color: #3498db;
-            color: white;
-            text-decoration: none;
-            border-radius: 5px;
-            font-weight: bold;
-            transition: background-color 0.3s ease;
-        }
+.nav-link {
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
 
-        /* Анимация кнопки при наведении */
-        .editor-link:hover {
-            background-color: #2980b9;
-            transform: scale(1.05);
-        }
+h1 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+    margin: 40px 0;
+}
 
-        /* Разделы */
-        .section {
-            padding: 60px 20px;
-            max-width: 1200px;
-            margin: 0 auto;
-        }
+p {
+    font-size: 24px;
+}
 
-        .section h2 {
-            font-size: 2.5rem;
-            text-align: center;
-            margin-bottom: 2rem;
-            color: #2c3e50;
-        }
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0px; 
+}
 
-        .features-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 30px;
-        }
+article {
+    text-decoration: none;
+    background-color: white;
+    padding: 15px;
+    width: 400px;
+    margin: 30px;
+    text-align: center;
+    color: black;
+}
 
-        .feature-card {
-            background-color: #fff;
-            padding: 30px;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            text-align: center;
-        }
+.article-but {
+    text-decoration: none;
+    background-color: #6C8DD5;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    font-size: 20px;
+    margin: 50px;
+}
 
-        .feature-card h3 {
-            font-size: 1.5rem;
-            margin-bottom: 1rem;
-            color: #3498db;
-        }
+footer {
+    background-color: white;
+    padding: 10px;
+}
 
-        .feature-card p {
-            color: #666;
-        }
+footer a {
+    margin-right: 1opx;
+}
 
-        /* Заглушка для изображений */
-        .image-placeholder {
-            width: 100%;
-            height: 200px;
-            background-color: #ecf0f1;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin-top: 1rem;
-            border-radius: 5px;
-            color: #7f8c8d;
-        }
+footer p {
+    font-size: 24px;
+    padding-left: 10px;
+}
+
+.grange {
+    display: flex;
+    background-color: #2A4580;
+}
+
+.red {
+    color: white;
+}
+
+.orange {
+    width: 100%;
+}
